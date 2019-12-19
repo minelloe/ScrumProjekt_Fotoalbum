@@ -31,7 +31,48 @@ Fotoablum
     </head>
     <body>
 
-        <h1>Hello Cinzia :)</h1>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner container"  >
+                    <div class="carousel-item active">
+                        <img src="https://i.pinimg.com/474x/01/98/64/0198646c0eb76219eb684d482e9963cc.jpg" class="d-block w-100" width="10px" height="500px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cat</h5>
+                            <p>suffering is inevetible</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/originals/81/c8/fe/81c8fea5e757251f64ab6a5d954ce546.jpg" class="d-block w-100" width="250px" height="500px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>An other cat</h5>
+                            <p>great content</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/originals/81/c8/fe/81c8fea5e757251f64ab6a5d954ce546.jpg" class="d-block w-100" width="250px" height="500px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>surprise, an other cat</h5>
+                            <p>that's purrfect</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1>Fotoalbum</h1>
+
+        </div>
     </body>
 
     <!-- Optional JavaScript -->
